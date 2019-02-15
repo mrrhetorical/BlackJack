@@ -8,7 +8,7 @@ public:
 		Sleep(ms);
 	}
 
-#else  /* POSIX */
+#else
 
 #include <unistd.h>
 
