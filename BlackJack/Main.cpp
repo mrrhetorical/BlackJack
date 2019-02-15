@@ -78,6 +78,7 @@ bool playRound(int decks) {
 			cout << "BlackJack!!!" << endl;
 			cout << "You won the round!";
 			Delay::delay(7000L);
+			cout << "==========" << endl;
 			return true;
 		}
 
