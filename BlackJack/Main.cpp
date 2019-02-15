@@ -128,17 +128,20 @@ bool playRound(int decks) {
 		clear();
 		cout << "Nobody won the round!" << endl;
 		Delay::delay(7000L);
+		cout << "==========" << endl;
 		return false;
 	} else if (dealerBusted) {
 		clear();
 		cout << "You won the round!" << endl;
 		Delay::delay(7000L);
+		cout << "==========" << endl;
 		return true;
 	} else if (!playerBusted) {
 		if (getValue(player) >= getValue(dealer)) {
 			clear();
 			cout << "You won the round!" << endl;
 			Delay::delay(7000L);
+			cout << "==========" << endl;
 			return true;
 		}
 	}
@@ -147,6 +150,7 @@ bool playRound(int decks) {
 	clear();
 	cout << "The dealer won the round!" << endl;
 	Delay::delay(7000L);
+	cout << "==========" << endl;
 	return false;
 }
 

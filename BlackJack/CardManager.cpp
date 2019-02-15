@@ -1,5 +1,7 @@
 #include "CardManager.h"
-#include "Utils.cpp"
+#include <algorithm>
+#include <chrono>
+#include <random>
 
 CardManager::CardManager() {}
 
@@ -17,7 +19,8 @@ Card CardManager::getFromTop() {
 void CardManager::shuffle(int times) {
 	//More times means "more" randomness!
 	for (int i = 0; i < times; i++) {
-		cards = Utils::shuffle(cards);
+		unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
+		std::shuffle(cards.begin(), cards.end(), std::default_random_engine(seed));
 	}
 }
 

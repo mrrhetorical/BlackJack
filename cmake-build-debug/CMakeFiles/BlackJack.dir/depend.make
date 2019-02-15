@@ -7,7 +7,6 @@ CMakeFiles\BlackJack.dir\BlackJack\Card.cpp.obj: ..\BlackJack\Card.h
 CMakeFiles\BlackJack.dir\BlackJack\CardManager.cpp.obj: ..\BlackJack\Card.h
 CMakeFiles\BlackJack.dir\BlackJack\CardManager.cpp.obj: ..\BlackJack\CardManager.cpp
 CMakeFiles\BlackJack.dir\BlackJack\CardManager.cpp.obj: ..\BlackJack\CardManager.h
-CMakeFiles\BlackJack.dir\BlackJack\CardManager.cpp.obj: ..\BlackJack\Utils.cpp
 
 CMakeFiles\BlackJack.dir\BlackJack\Main.cpp.obj: ..\BlackJack\Card.h
 CMakeFiles\BlackJack.dir\BlackJack\Main.cpp.obj: ..\BlackJack\CardManager.h
