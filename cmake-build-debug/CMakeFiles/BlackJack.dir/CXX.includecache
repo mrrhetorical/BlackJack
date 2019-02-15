@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Caleb Brock/source/repos/BlackJack/BlackJack/Card.h
+string
+-
+
+C:/Users/Caleb Brock/source/repos/BlackJack/BlackJack/CardManager.h
+Card.h
+C:/Users/Caleb Brock/source/repos/BlackJack/BlackJack/Card.h
+iostream
+-
+vector
+-
+
+C:/Users/Caleb Brock/source/repos/BlackJack/BlackJack/Delay.h
+Windows.h
+C:/Users/Caleb Brock/source/repos/BlackJack/BlackJack/Windows.h
+unistd.h
+-
+
+C:/Users/Caleb Brock/source/repos/BlackJack/BlackJack/Main.cpp
+iostream
+-
+string
+-
+CardManager.h
+C:/Users/Caleb Brock/source/repos/BlackJack/BlackJack/CardManager.h
+Card.h
+C:/Users/Caleb Brock/source/repos/BlackJack/BlackJack/Card.h
+Delay.h
+C:/Users/Caleb Brock/source/repos/BlackJack/BlackJack/Delay.h
+
