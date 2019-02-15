@@ -76,7 +76,7 @@ bool playRound(int decks) {
 			break;
 		} else if (getValue(player) == 21) {
 			cout << "BlackJack!!!" << endl;
-			cout << "You won the round!";
+			cout << "You won the round!" << endl;
 			Delay::delay(7000L);
 			cout << "==========" << endl;
 			return true;
